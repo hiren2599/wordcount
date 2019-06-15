@@ -1,0 +1,17 @@
+<h1>counted</h1>
+
+<br/>
+
+
+total words are <b>{{ text_no }}</b>.
+
+<br/>
+
+
+{{word}}
+<br/>
+{% for w, value in word.items %}
+
+{{ w }}={{ value }}
+<br/>
+{% endfor %}
